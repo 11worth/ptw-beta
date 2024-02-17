@@ -30,8 +30,8 @@ You need to select a Notion database that contains the pages you want exported t
 
 ### Instructions
 
-- 1. [How to Get Your Notion Database ID Quick Guide]([https://notiondemy.com/notion-database-id/](https://notiondemy.com/notion-database-id/)) 
-- 2. Save this database ID in a safe place--you will need it in step three.
+1. [How to Get Your Notion Database ID Quick Guide]([https://notiondemy.com/notion-database-id/](https://notiondemy.com/notion-database-id/)) 
+2. Save this database ID in a safe place--you will need it in step three.
 
 # Step Two: Set Up A New Checkbox Property in Your Selected Notion Database 
 
@@ -39,11 +39,11 @@ For the shortcut to work, you need to set up a checkbox property in your Notion 
 
 ### Instructions
 
-- 1. Review [how to manage properties in Notion]([https://www.notion.so/help/database-properties#managing-properties](https://www.notion.so/help/database-properties#managing-properties)). 
-- 2. Create a new checkbox property in the database.
+1. Review [how to manage properties in Notion]([https://www.notion.so/help/database-properties#managing-properties](https://www.notion.so/help/database-properties#managing-properties)). 
+2. Create a new checkbox property in the database.
   - It is okay to hide this property in Notion if you do not wish to see it in your Notion interface. 
-- 3. Name your new property "Processed", "Exported", or another term according to your preference.  
-- 4. Save the property name (exactly as you entered it in Notion) in a safe place--you will need it step three. 
+3. Name your new property "Processed", "Exported", or another term according to your preference.  
+4. Save the property name (exactly as you entered it in Notion) in a safe place--you will need it step three. 
 
 ## Step Three: Set up your Notion integration
 
