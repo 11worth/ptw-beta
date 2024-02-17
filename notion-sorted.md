@@ -16,9 +16,7 @@ Several terms and conventions are used throughout this article to help explain t
 - "Application programming interface" (API) is the technology that enables the transfer of data between two applications.
 - An API "secret" is a code that verifies that the transfer of data between the applications is authorized. 
 - "JSON" is a simple coding language that we will use to specify which information we want the API to transfer.
-- "Dot notation" is a syntax used to navigate JSON libraries.
-- Every time you are instructed to enter a value that is presented in quotation marks (unless it is a JSON code sample), the reader should enter that value without the quotation marks. 
-- A value that is presented in brackets represents a variable that can be replaced with another value. 
+- "Dot notation" is a syntax that is used to navigate JSON libraries.
 
 ## Requirements
 
@@ -30,7 +28,7 @@ You need to select a Notion database that contains the pages you want exported t
 
 ### Instructions
 
-1. [How to Get Your Notion Database ID Quick Guide]([https://notiondemy.com/notion-database-id/](https://notiondemy.com/notion-database-id/)) 
+1. [How to Get Your Notion Database ID Quick Guide](https://notiondemy.com/notion-database-id/) 
 2. Save this database ID in a safe place--you will need it in step three.
 
 # Step Two: Set Up A New Checkbox Property in Your Selected Notion Database 
@@ -39,9 +37,9 @@ For the shortcut to work, you need to set up a checkbox property in your Notion 
 
 ### Instructions
 
-1. Review [how to manage properties in Notion]([https://www.notion.so/help/database-properties#managing-properties](https://www.notion.so/help/database-properties#managing-properties)). 
+1. Review [how to manage properties in Notion](https://www.notion.so/help/database-properties#managing-properties). 
 2. Create a new checkbox property in the database.
-  - It is okay to hide this property in Notion if you do not wish to see it in your Notion interface. 
+    - It is okay to hide this property in Notion if you do not wish to see it in your Notion interface. 
 3. Name your new property "Processed", "Exported", or another term according to your preference.  
 4. Save the property name (exactly as you entered it in Notion) in a safe place--you will need it step three. 
 
@@ -51,12 +49,12 @@ You will need to set up a new Notion integration that will grant access to Notio
 
 ### Instructions
 
-- 1. [Create Your Integration in Notion]([https://developers.notion.com/docs/create-a-notion-integration#create-your-integration-in-notion](https://developers.notion.com/docs/create-a-notion-integration#create-your-integration-in-notion))
-  - You have the option to upload a thumbnail photo that further identifies this integration.
-- 2. [Get Your API Secret]([https://developers.notion.com/docs/create-a-notion-integration#get-your-api-secret](https://developers.notion.com/docs/create-a-notion-integration#get-your-api-secret))
-  - You will input this API secret into Apple Shortcuts in the next step.
-- 3. [Give Your Integration Page Permissions]([https://developers.notion.com/docs/create-a-notion-integration#give-your-integration-page-permissions](https://developers.notion.com/docs/create-a-notion-integration#give-your-integration-page-permissions))
-  - Select the page that contains the tasks you intend to export to Apple reminders.
+1. [Create Your Integration in Notion](https://developers.notion.com/docs/create-a-notion-integration#create-your-integration-in-notion)
+    - You have the option to upload a thumbnail photo that further identifies this integration.
+2. [Get Your API Secret](https://developers.notion.com/docs/create-a-notion-integration#get-your-api-secret)
+    - You will input this API secret into Apple Shortcuts in the next step.
+3. [Give Your Integration Page Permissions](https://developers.notion.com/docs/create-a-notion-integration#give-your-integration-page-permissions)
+    - Select the page that contains the tasks you intend to export to Apple reminders.
 
 ## Step Three: Get the Shortcut and Answer the Import Questions
 
@@ -82,9 +80,9 @@ Choose from one of four options to run your shortcut:
 
 When you run the shortcut using one of the methods in step four, check the following to ensure it was successful:
 
-1. Look for a Check icon ([insert icon here]) or a Siri confirmation that verifies the shortcut was successfully run.
+1. Look for a Check icon ([insert icon here]) or a Siri confirmation that verifies the shortcut was run successfully.
 2. In Notion, look at a page you expected to export by running the shortcut. The checkbox should be checked off if the operation was successful.
-  - There might be a delay between running the shortcut and seeing an update to the Notion property, so be patient with this. 
+    - There might be a delay between running the shortcut and seeing an update to the Notion property, so be patient with this. 
 3. In Apple Reminders, check the list you selected in step three to verify that all the anticipated Notion pages appear as reminders. 
 
 If some of these conditions are unsuccessful, repeat step three and verify that you are entering the information exactly as you gathered it in steps one and two. If problems persist, reach out at [insert Github repository link here].
