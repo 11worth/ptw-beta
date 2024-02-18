@@ -8,6 +8,8 @@ This article will show you how to build an Apple Shortcuts automation that expor
 - The due date associated with the page (if specified)
 - A link back to the page in Notion
 
+[Add screenshot 1 here]
+
 Several terms and conventions are used throughout this article to help explain the components of the applications and how to work with them. These are as follows:
 
 - Apple Shortcuts (capitalized) refers to the application, and a "shortcut" (not capitalized) refers to an automation that is built with the application. 
@@ -20,7 +22,7 @@ Several terms and conventions are used throughout this article to help explain t
 
 ## Requirements
 
-You will need a MacOS or iOS-based Apple device in order to build this shortcut. Coding is not necessary to achieve the shortcut functionality mentioned in the introduction. To customize the shortcut any further, however, you will need an understanding of JSON, dot notation and interpreting API documentation. Setting up the basic shortcut will take about 30 minutes, but it will save you much more time once implemented--so let's get started! 
+You will need a MacOS or iOS-based Apple device in order to build this shortcut. Coding is not necessary to achieve the shortcut functionality mentioned in the introduction. To further potentiate or customize the shortcut, however, you will need an understanding of JSON, dot notation and interpreting API documentation. Setting up the basic shortcut will take about 30 minutes, but it will save you much more time once implemented--so let's get started! 
 
 # Step One: Retrieve Your Notion Database ID
 
@@ -33,7 +35,7 @@ You need to select a Notion database that contains the pages you want exported t
 
 # Step Two: Set Up A New Checkbox Property in Your Selected Notion Database 
 
-For the shortcut to work, you need to set up a checkbox property in your Notion database that tracks which pages Apple Shortcuts has sent to Apple Reminders. This will ensure that Notion pages are not repeatedly transferred to Apple Reminders. Notion has already produced high-quality instructions for this task, and they are linked below. 
+For the shortcut to work, you need to set up a checkbox property in your Notion database that marks a page that Apple Shortcuts has sent to Apple Reminders. This will ensure that Notion pages are not repeatedly transferred to Apple Reminders. Notion has already produced high-quality instructions for this task, and they are linked below. 
 
 ### Instructions
 
@@ -41,7 +43,9 @@ For the shortcut to work, you need to set up a checkbox property in your Notion 
 2. Create a new checkbox property in the database.
     - It is okay to hide this property in Notion if you do not wish to see it in your Notion interface. 
 3. Name your new property "Processed", "Exported", or another term according to your preference.  
-4. Save the property name (exactly as you entered it in Notion) in a safe place--you will need it step three. 
+4. Save the property name (exactly as you entered it in Notion) in a safe place--you will need it step three.
+
+[Insert screenshot here]
 
 ## Step Three: Set up your Notion integration
 
@@ -63,9 +67,12 @@ You will import the shortcut to your Shortcuts application and configure it usin
 ### Instructions
 
 1. Find the shortcut [here](https://www.icloud.com/shortcuts/f19be2c14e18423ca5176fb1005fd285). 
-2. Select "Add Shortcut". A new screen will appear with a list of import questions. 
-3. Enter the relevant information in the field that corresponds to each import questions. 
-4. Click "Add Shortcut". 
+2. Select "Add Shortcut". A new screen will appear with a list of import questions.
+[ADD SCREENSHOT HERE]
+3. Enter the relevant information in the field that corresponds to each import questions.
+[ADD SCREENSHOT HERE]
+5. Click "Add Shortcut".
+[ADD SCREENSHOT HERE]
 
 ## Step Four: Choose How To Run Your Shortcut
 
