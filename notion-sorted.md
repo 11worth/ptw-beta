@@ -99,7 +99,7 @@ Choose from one of four options to run your shortcut:
 
 When you run the shortcut using one of the methods in step four, check the following to ensure it was successful:
 
-1. Look for a Check icon ([insert icon here]) or a Siri confirmation that verifies the shortcut was run successfully.
+1. Look for a Check icon INSERT ICON HERE or a Siri confirmation that verifies the shortcut was run successfully.
 2. In Notion, look at a page you expected to export by running the shortcut. The checkbox should be checked off if the operation was successful.
     - There might be a delay between running the shortcut and seeing an update to the Notion property, so be patient with this. 
 3. In Apple Reminders, check the list you selected in step three to verify that all the anticipated Notion pages appear as reminders. 
