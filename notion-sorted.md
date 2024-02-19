@@ -16,13 +16,14 @@ becomes...
 
 Several terms and conventions are used throughout this article to help explain the components of the applications and how to work with them. These are as follows:
 
-- Apple Shortcuts (capitalized) refers to the application, and a "shortcut" (not capitalized) refers to an automation that is built with the application. 
-- "Actions," "variables," and "documents" are the building blocks of a shortcut.
-- "Pages" are the building blocks of Notion which contain the data that will be transferred.
-- "Application programming interface" (API) is the technology that enables the transfer of data between two applications.
-- An API "secret" is a code that verifies that the transfer of data between the applications is authorized. 
-- "JSON" is a simple coding language that we will use to specify which information we want the API to transfer.
-- "Dot notation" is a syntax that is used to navigate JSON libraries.
+- Apple Shortcuts (capitalized): Refers to the application
+- "shortcut" (not capitalized): Refers to an automation that is built with the application. 
+- "Actions," "variables," and "documents": Building blocks of a shortcut.
+- "Pages": The building blocks of Notion, which contain the data that will be transferred.
+- "Application programming interface" (API): Technology that enables the transfer of data between two applications.
+- API "secret": A code that verifies that the transfer of data between the applications is authorized. 
+- "JSON": A simple coding language that we will use to specify which information we want the API to transfer.
+- "Dot notation": A syntax that is used to navigate JSON libraries.
 
 ## Requirements
 
