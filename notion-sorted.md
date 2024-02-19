@@ -12,7 +12,7 @@ This article will show you how to build an Apple Shortcuts automation that expor
 
 becomes...
 
-[Add screenshot 2 here]
+![alt text](Screenshot_2.png)
 
 Several terms and conventions are used throughout this article to help explain the components of the applications and how to work with them. These are as follows:
 
@@ -49,7 +49,7 @@ For the shortcut to work, you need to set up a checkbox property in your Notion 
 3. Name your new property "Processed", "Exported", or another term according to your preference.  
 4. Save the property name (exactly as you entered it in Notion) in a safe place--you will need it step three.
 
-[Insert screenshot 3 here]
+![alt text](screenshot_3.png)
 
 ## Step Three: Set up your Notion integration
 
@@ -72,19 +72,19 @@ You will import the shortcut to your Shortcuts application and configure it usin
 
 1. Find the shortcut [here](https://www.icloud.com/shortcuts/f19be2c14e18423ca5176fb1005fd285).
 
-[ADD SCREENSHOT 4 HERE]
+![alt text](screenshot_4.png)
 
 3. Select "Add Shortcut". A new screen will appear with a list of import questions.
 
-[ADD SCREENSHOT 5 HERE]
+![alt text](screenshot_5.png)
 
 3. Enter the relevant information in the field that corresponds to each import questions.
 
-[ADD SCREENSHOT 5 HERE]
+![alt text](screenshot_5.png)
 
 4. Click "Add Shortcut".
    
-[ADD SCREENSHOT 6 HERE]
+![alt text](screenshot_6.png)
 
 ## Step Four: Choose How To Run Your Shortcut
 
