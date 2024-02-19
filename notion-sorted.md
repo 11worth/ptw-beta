@@ -8,7 +8,7 @@ This article will show you how to build an Apple Shortcuts automation that expor
 - The due date associated with the page (if specified)
 - A link back to the page in Notion
 
-[Add screenshot 1 here]
+![alt text](screenshot_1.png)
 
 becomes...
 
