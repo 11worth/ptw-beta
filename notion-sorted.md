@@ -70,12 +70,20 @@ You will import the shortcut to your Shortcuts application and configure it usin
 
 ### Instructions
 
-1. Find the shortcut [here](https://www.icloud.com/shortcuts/f19be2c14e18423ca5176fb1005fd285). 
-2. Select "Add Shortcut". A new screen will appear with a list of import questions.
+1. Find the shortcut [here](https://www.icloud.com/shortcuts/f19be2c14e18423ca5176fb1005fd285).
+
 [ADD SCREENSHOT 4 HERE]
-3. Enter the relevant information in the field that corresponds to each import questions.
+
+3. Select "Add Shortcut". A new screen will appear with a list of import questions.
+
 [ADD SCREENSHOT 5 HERE]
-5. Click "Add Shortcut".
+
+3. Enter the relevant information in the field that corresponds to each import questions.
+
+[ADD SCREENSHOT 5 HERE]
+
+4. Click "Add Shortcut".
+   
 [ADD SCREENSHOT 6 HERE]
 
 ## Step Four: Choose How To Run Your Shortcut
