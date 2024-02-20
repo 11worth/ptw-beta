@@ -1,4 +1,4 @@
-# How to Set Up an Apple Shortcut That Sends Notion Pages to Apple Reminders 
+# How to Set Up An Apple Shortcut That Sends Notion Pages to Apple Reminders 
 
 ## Introduction
 
