@@ -65,7 +65,7 @@ You will need to set up a new Notion integration that will grant access to Notio
 3. [Give Your Integration Page Permissions](https://developers.notion.com/docs/create-a-notion-integration#give-your-integration-page-permissions)
     - Select the page that contains the tasks you intend to export to Apple reminders.
 
-## Step Three: Get the Shortcut and Answer the Import Questions
+## Step Four: Get the Shortcut and Answer the Import Questions
 
 You will import the shortcut to your Shortcuts application and configure it using the information that you gathered in the previous steps. 
 
@@ -75,7 +75,7 @@ You will import the shortcut to your Shortcuts application and configure it usin
 
 ![alt text](screenshot_4.png)
 
-3. Select "Add Shortcut". A new screen will appear with a list of import questions.
+2. Select "Add Shortcut". A new screen will appear with a list of import questions.
 
 ![alt text](screenshot_5.png)
 
