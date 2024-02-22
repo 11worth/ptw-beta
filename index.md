@@ -8,7 +8,7 @@ This article will show you how to build an Apple Shortcuts automation that expor
 - The due date associated with the page (if specified)
 - A link back to the page in Notion
 
-![This picture shows a task in Notion that has been exported to Apple Reminders using the shortcut described in this article](Screenshot_1.png)
+![This picture shows a task in Notion that has been exported to Apple Reminders using the shortcut described in this article](Screenshot_1.jpg)
 
 becomes...
 
@@ -58,7 +58,7 @@ For the shortcut to work, you need to set up a checkbox property in your Notion 
 3. Name your new property "Processed", "Exported", or another term according to your preference.  
 4. Save the property name (exactly as you entered it in Notion) in a safe place--you will need it step three.
 
-![This is an image of the task page in Notion from screenshot_1, except now the page's Exported property is highlighted.](Screenshot_3.png)
+![This is an image of the task page in Notion from screenshot_1, except now the page's Exported property is highlighted.](Screenshot_3.jpg)
 
 ## Step Three: Set up your Notion integration
 
@@ -81,23 +81,23 @@ You will import the shortcut to your Shortcuts application and configure it usin
 
 1. Find the shortcut [here](https://www.icloud.com/shortcuts/f19be2c14e18423ca5176fb1005fd285) and select "Add Shortcut". A new screen will appear with questions that will faciliate configuration of the shortcut.
 
-![This image shows the screen that appears in the iOS Apple Shortcuts app after clicking the link in step four, instruction 1](Screenshot_4.png)
+![This image shows the screen that appears in the iOS Apple Shortcuts app after clicking the link in step four, instruction 1](Screenshot_4.PNG)
 
 2. In the first question, input the database ID that you retrieved in step one.
 
-![This image shows the screen that displays the first import question that is described in step four, instruction 2](Screenshot_5.png)
+![This image shows the screen that displays the first import question that is described in step four, instruction 2](Screenshot_5.PNG)
 
 3. In the second question, input the API secret for your Notion integration that you retrieved in step three.
 
-![This image shows the screen that displays the second import question that is described in step four, instruction 3](Screenshot_6.png)
+![This image shows the screen that displays the second import question that is described in step four, instruction 3](Screenshot_6.PNG)
 
 3. In the third question, input the name of the property that you established in Notion in step two. 
 
-![This image shows the screen that displays the third import question that is described in step four, instruction 4](Screenshot_7.png)
+![This image shows the screen that displays the third import question that is described in step four, instruction 4](Screenshot_7.PNG)
 
 4. In the fourth question, select the Apple Reminders list you wish to have the Notion pages imported to. Then select the blue button that says "+ Add Shortcut"
 
-![This image shows the screen that displays the third import question that is described in step four, instruction 5](Screenshot_8.png)
+![This image shows the screen that displays the third import question that is described in step four, instruction 5](Screenshot_8.PNG)
 
 ## Step Five: Run Your New Shortcut
 
@@ -107,15 +107,15 @@ Now that you have imported your shortcut into Apple Shortcuts, you can run it fo
 
 1. Navigate to your gallery in the Shorcuts application.
 
-![This image shows the gallery screen within the Apple Shortcuts iOS application](Screenshot_9.png)
+![This image shows the gallery screen within the Apple Shortcuts iOS application](Screenshot_9.PNG)
 
 2. Click on the shortcut titled "Send Notion Pages to Apple Reminders". A Privacy notification will appear at the top of the screen that says "Allow 'Send Notion Pages to Apple Reminders' to connect to 'api.notion.com'?" Select "Allow". 
 
-![This image shows the gallery screen within the Apple Shortcuts iOS application, which now has the privacy notification described in step five, instruction 2](Screenshot_10.png)
+![This image shows the gallery screen within the Apple Shortcuts iOS application, which now has the privacy notification described in step five, instruction 2](Screenshot_10.PNG)
 
 3. The shortcut will process, and then a checkmark will appear in the shortcut if it processed successfully.
 
-![This image shows the gallery screen within the Apple Shortcuts iOS application, which now has a checkmark in the button for the imported shortcut as described in step five, instruction 3](Screenshot_11.png)
+![This image shows the gallery screen within the Apple Shortcuts iOS application, which now has a checkmark in the button for the imported shortcut as described in step five, instruction 3](Screenshot_11.PNG)
 
 Additionally, you can use the following three options to run your shortcut in the future: 
 
@@ -132,6 +132,6 @@ When you run the shortcut using one of the methods in step five, check the follo
     - There might be a delay between running the shortcut and seeing an update to the Notion property, so be patient with this. 
 4. In Apple Reminders, check the list you selected in step three to verify that all the anticipated Notion pages appear as reminders. 
 
-If some of these conditions are unsuccessful, repeat step three and verify that you are entering the information exactly as you gathered it in steps one and two. If problems persist, reach out at [insert Github repository link here].
+If some of these conditions are unsuccessful, repeat step three and verify that you are entering the information exactly as you gathered it in steps one and two.
 
 If all of these of these conditions are successful, however, then enjoy your new integration! Hopefully it adds value to your productivity workflow. 
