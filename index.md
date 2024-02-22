@@ -93,16 +93,9 @@ Now that you have imported your shortcut into Apple Shortcuts, you can run it fo
 
 ### Instructions
 
-1. Navigate to your gallery in the Shorcuts application.
-
-![This image shows the gallery screen within the Apple Shortcuts iOS application](Screenshot_9.PNG)
-
-2. Click on the shortcut titled "Send Notion Pages to Apple Reminders". A Privacy notification will appear at the top of the screen that says "Allow 'Send Notion Pages to Apple Reminders' to connect to 'api.notion.com'?" Select "Allow". 
-
-![This image shows the gallery screen within the Apple Shortcuts iOS application, which now has the privacy notification described in step five, instruction 2](Screenshot_10.PNG)
-
+1. Navigate to your gallery in the Shorcuts application. ![This image shows the gallery screen within the Apple Shortcuts iOS application](Screenshot_9.PNG)
+2.  Click on the shortcut titled "Send Notion Pages to Apple Reminders". A Privacy notification will appear at the top of the screen that says "Allow 'Send Notion Pages to Apple Reminders' to connect to 'api.notion.com'?" Select "Allow". ![This image shows the gallery screen within the Apple Shortcuts iOS application, which now has the privacy notification described in step five, instruction 2](Screenshot_10.PNG)
 3. The shortcut will process, and then a checkmark will appear in the shortcut if it processed successfully.
-
 ![This image shows the gallery screen within the Apple Shortcuts iOS application, which now has a checkmark in the button for the imported shortcut as described in step five, instruction 3](Screenshot_11.PNG)
 
 Additionally, you can use the following three options to run your shortcut in the future: 
