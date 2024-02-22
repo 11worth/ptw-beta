@@ -81,25 +81,11 @@ You will import the shortcut to your Shortcuts application and configure it usin
 
 ### Instructions
 
-1. Find the shortcut [here](https://www.icloud.com/shortcuts/f19be2c14e18423ca5176fb1005fd285) and select "Add Shortcut". A new screen will appear with questions that will faciliate configuration of the shortcut.
-
-![This image shows the screen that appears in the iOS Apple Shortcuts app after clicking the link in step four, instruction 1](Screenshot_4.PNG)
-
-2. In the first question, input the database ID that you retrieved in step one.
-
-![This image shows the screen that displays the first import question that is described in step four, instruction 2](screenshot_5.PNG)
-
-3. In the second question, input the API secret for your Notion integration that you retrieved in step three.
-
-![This image shows the screen that displays the second import question that is described in step four, instruction 3](Screenshot_6.PNG)
-
-4. In the third question, input the name of the property that you established in Notion in step two. 
-
-![This image shows the screen that displays the third import question that is described in step four, instruction 4](Screenshot_7.PNG)
-
-5. In the fourth question, select the Apple Reminders list you wish to have the Notion pages imported to. Then select the blue button that says "+ Add Shortcut"
-
-![This image shows the screen that displays the third import question that is described in step four, instruction 5](Screenshot_8.PNG)
+1. Find the shortcut [here](https://www.icloud.com/shortcuts/f19be2c14e18423ca5176fb1005fd285) and select "Add Shortcut". A new screen will appear with questions that will faciliate configuration of the shortcut. ![This image shows the screen that appears in the iOS Apple Shortcuts app after clicking the link in step four, instruction 1](Screenshot_4.PNG)
+2.  In the first question, input the database ID that you retrieved in step one. ![This image shows the screen that displays the first import question that is described in step four, instruction 2](screenshot_5.PNG)
+3.  In the second question, input the API secret for your Notion integration that you retrieved in step three. ![This image shows the screen that displays the second import question that is described in step four, instruction 3](Screenshot_6.PNG) 
+4.  In the third question, input the name of the property that you established in Notion in step two. ![This image shows the screen that displays the third import question that is described in step four, instruction 4](Screenshot_7.PNG)
+5.  In the fourth question, select the Apple Reminders list you wish to have the Notion pages imported to. Then select the blue button that says "+ Add Shortcut" ![This image shows the screen that displays the third import question that is described in step four, instruction 5](Screenshot_8.PNG)
 
 ## Step Five: Run Your New Shortcut
 
