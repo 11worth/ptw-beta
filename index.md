@@ -8,22 +8,30 @@ This article will show you how to build an Apple Shortcuts automation that expor
 - The due date associated with the page (if specified)
 - A link back to the page in Notion
 
-![alt text](screenshot_1.png)
+![This picture shows a task in Notion that has been exported to Apple Reminders using the shortcut described in this article](screenshot_1.png)
 
 becomes...
 
-![alt text](Screenshot_2.png)
+![This picture shows what the Notion task in screenshot_1 looks like in Apple Reminders after it has been imported using the shortcut described in this article.](Screenshot_2.png)
 
 Several terms and conventions are used throughout this article to help explain the components of the applications and how to work with them. These are as follows:
 
-- Apple Shortcuts (capitalized): Refers to the application
-- "shortcut" (not capitalized): Refers to an automation that is built with the application. 
-- "Actions," "variables," and "documents": Building blocks of a shortcut.
-- "Pages": The building blocks of Notion, which contain the data that will be transferred.
-- "Application programming interface" (API): Technology that enables the transfer of data between two applications.
-- API "secret": A code that verifies that the transfer of data between the applications is authorized. 
-- "JSON": A simple coding language that we will use to specify which information we want the API to transfer.
-- "Dot notation": A syntax that is used to navigate JSON libraries.
+- Apple Shortcuts (capitalized)
+  : Refers to the application
+- "shortcut" (not capitalized)
+  : Refers to an automation that is built with the application. 
+- "Actions," "variables," and "documents"
+  : Building blocks of a shortcut.
+- "Pages"
+  : The building blocks of Notion, which contain the data that will be transferred.
+- "Application programming interface" (API)
+  : Technology that enables the transfer of data between two applications.
+- API "secret"
+  : A code that verifies that the transfer of data between the applications is authorized. 
+- "JSON"
+  : A simple coding language that we will use to specify which information we want the API to transfer.
+- "Dot notation"
+  : A syntax that is used to navigate JSON libraries.
 
 ## Requirements
 
@@ -50,7 +58,7 @@ For the shortcut to work, you need to set up a checkbox property in your Notion 
 3. Name your new property "Processed", "Exported", or another term according to your preference.  
 4. Save the property name (exactly as you entered it in Notion) in a safe place--you will need it step three.
 
-![alt text](screenshot_3.png)
+![This is an image of the task page in Notion from screenshot_1, except now the page's Exported property is highlighted.](screenshot_3.png)
 
 ## Step Three: Set up your Notion integration
 
@@ -71,34 +79,53 @@ You will import the shortcut to your Shortcuts application and configure it usin
 
 ### Instructions
 
-1. Find the shortcut [here](https://www.icloud.com/shortcuts/f19be2c14e18423ca5176fb1005fd285).
+1. Find the shortcut [here](https://www.icloud.com/shortcuts/f19be2c14e18423ca5176fb1005fd285) and select "Add Shortcut". A new screen will appear with questions that will faciliate configuration of the shortcut.
 
-![alt text](screenshot_4.png)
+![This image shows the screen that appears in the iOS Apple Shortcuts app after clicking the link in step four, instruction 1](screenshot_4.png)
 
-2. Select "Add Shortcut". A new screen will appear with a list of import questions.
+2. In the first question, input the database ID that you retrieved in step one.
 
-![alt text](screenshot_5.png)
+![This image shows the screen that displays the first import question that is described in step four, instruction 2](screenshot_5.png)
 
-3. Enter the relevant information in the field that corresponds to each import questions.
+3. In the second question, input the API secret for your Notion integration that you retrieved in step three.
 
-![alt text](screenshot_5.png)
+![This image shows the screen that displays the second import question that is described in step four, instruction 3](screenshot_6.png)
 
-4. Click "Add Shortcut".
-   
-![alt text](screenshot_6.png)
+3. In the third question, input the name of the property that you established in Notion in step two. 
 
-## Step Four: Choose How To Run Your Shortcut
+![This image shows the screen that displays the third import question that is described in step four, instruction 4](screenshot_7.png)
 
-Choose from one of four options to run your shortcut: 
+4. In the fourth question, select the Apple Reminders list you wish to have the Notion pages imported to. Then select the blue button that says "+ Add Shortcut"
+
+![This image shows the screen that displays the third import question that is described in step four, instruction 5](screenshot_8.png)
+
+## Step Five: Run Your New Shortcut
+
+Now that you have imported your shortcut into Apple Shortcuts, you can run it for the first time. 
+
+### Instructions
+
+1. Navigate to your gallery in the Shorcuts application.
+
+![This image shows the gallery screen within the Apple Shortcuts iOS application](screenshot_9.png)
+
+2. Click on the shortcut titled "Send Notion Pages to Apple Reminders". A Privacy notification will appear at the top of the screen that says "Allow 'Send Notion Pages to Apple Reminders' to connect to 'api.notion.com'?" Select "Allow". 
+
+![This image shows the gallery screen within the Apple Shortcuts iOS application, which now has the privacy notification described in step five, instruction 2](screenshot_10.png)
+
+3. The shortcut will process, and then a checkmark will appear in the shortcut if it processed successfully.
+
+![This image shows the gallery screen within the Apple Shortcuts iOS application, which now has a checkmark in the button for the imported shortcut as described in step five, instruction 3](screenshot_11.png)
+
+Additionally, you can use the following three options to run your shortcut in the future: 
 
 - Set the shortcut to run automatically at a specified time each day.
-- Select the shortcut's icon within the Apple Shortcuts application.
 - Add the shortcut to your home screen on iOS and select it from there.
 - Prompt Siri with the title of the Shortcut.
 
-## Step Five: Verify Your Shortcut Is Functional
+## Step Six: Verify Your Shortcut Is Functional
 
-When you run the shortcut using one of the methods in step four, check the following to ensure it was successful:
+When you run the shortcut using one of the methods in step five, check the following to ensure it was successful:
 
 1. Look for a Check icon (&#9989;) or a Siri confirmation that verifies the shortcut was run successfully.
 3. In Notion, look at a page you expected to export by running the shortcut. The checkbox you set up in step two should be checked off if the operation was successful.
