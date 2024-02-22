@@ -8,9 +8,11 @@ This article will show you how to build an Apple Shortcuts automation that expor
 - The due date associated with the page (if specified)
 - A link back to the page in Notion
 
+For example, you have this Notion task page:
+
 ![This picture shows a task in Notion that has been exported to Apple Reminders using the shortcut described in this article](Screenshot_1.jpg)
 
-becomes...
+...and it becomes this task in Apple Reminders:
 
 ![This picture shows what the Notion task in screenshot_1 looks like in Apple Reminders after it has been imported using the shortcut described in this article.](Screenshot_2.png)
 
