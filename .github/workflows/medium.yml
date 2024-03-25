@@ -6,7 +6,7 @@ jobs:
       - name: Check out reposity
         uses: actions/checkout@v2
       - name: Create Medium Post
-        uses: philips-software/post-to-medium-action@v0.4.1
+        uses: philips-software/post-to-medium-action@v0.6.0
         with:
           integration_token: "${{ secrets.INTEGRATION_TOKEN }}"
           file: "index.md"
