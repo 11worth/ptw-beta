@@ -9,7 +9,7 @@ jobs:
       - name: Create Medium Post
         uses: philips-software/post-to-medium-action@v0.6.0
         with:
-          integration_token: "${{ secrets.INTEGRATION_TOKEN }}"
+          integration_token: "${{ secrets.MEDIUM_INTEGRATION_TOKEN }}"
           file: "index.md"
           content_format: "markdown"
           notify_followers: "false"
