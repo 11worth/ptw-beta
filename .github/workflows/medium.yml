@@ -1,3 +1,4 @@
+on: workflow_dispatch
 jobs:
   post-to-medium:
     name: Post to Medium
